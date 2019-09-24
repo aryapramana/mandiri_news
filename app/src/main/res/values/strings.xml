@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Mandiri News</string>
+    <string name="news_image_desc">This is the news image</string>
+    <string name="headline_news_txt">Headline News</string>
+    <string name="toolbar_default_text">TIME</string>
+    <string name="about_app_txt">About</string>
+    <string name="about_txt">About</string>
+    <string name="cancel_txt">Cancel</string>
+    <string name="example_hint">example: \'Startups\'</string>
+    <string name="search_negative_txt">Not Found!</string>
+    <string name="news_detail_image_desc">News Image</string>
+    <string name="read_article_txt">Read Article</string>
+    <string name="splash_desc">Image for Splash Screen</string>
+    <string name="about_notice_text">This is a demo version of the apps!</string>
+</resources>
