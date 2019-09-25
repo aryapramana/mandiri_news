@@ -96,12 +96,16 @@ public class NewsActivity extends AppCompatActivity {
         news_detail_describe.setText(description);
         news_detail_describe.setTypeface(airbnbcereal_light);
 
-        Picasso.get()
-                .load(image_url)
-                .fit()
-                .error(R.mipmap.ic_launcher)
-                .into(news_detailImgView);
+        try {
+            Picasso.get()
+                    .load(image_url)
+                    .fit()
+                    .error(R.mipmap.ic_launcher)
+                    .into(news_detailImgView);
 
+        } catch (Exception e)   {
+            System.out.println("NewsActivity msg: " + e.getMessage());
+        }
     }
 
     private void actionShare() {

@@ -63,7 +63,7 @@ public class DataViewAdapter extends RecyclerView.Adapter<DataViewAdapter.ViewHo
                     .error(R.mipmap.ic_launcher)
                     .into(viewHolder.imgNews);
         } catch (Exception e)   {
-            System.out.println("message: " + e.getMessage());
+            System.out.println("DataViewAdapter msg: " + e.getMessage());
         }
 
 
@@ -96,7 +96,7 @@ public class DataViewAdapter extends RecyclerView.Adapter<DataViewAdapter.ViewHo
         AssetManager assetManager = context.getApplicationContext().getAssets();
         Typeface airbnb_cereal_bold = Typeface.createFromAsset(assetManager, "font/airbnbcereal_bold.ttf");
 
-        public ViewHolder(@NonNull View itemView) {
+        ViewHolder(@NonNull View itemView) {
             super(itemView);
 
             newsTitleTxtView = itemView.findViewById(R.id.newsTitleTxtView);
